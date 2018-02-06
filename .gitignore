@@ -1,0 +1,34 @@
+src/*.exe
+src/biblio
+src/bibliod
+src/test_biblio
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.biblio
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+biblio-qt
+Biblio-Qt.app
+
+# Unit-tests
+Makefile.test
+biblio-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

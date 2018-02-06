@@ -1,0 +1,9 @@
+Building Biblio
+
+See doc/readme-qt.rst for instructions on building Biblio-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Biblio.
+
+See doc/build-*.txt for instructions on building bibliod,
+the intended-for-services, no-graphical-interface, reference
+implementation of Biblio.
