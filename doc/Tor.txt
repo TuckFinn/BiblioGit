@@ -50,10 +50,10 @@ reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equiv
 config file):
 
   HiddenServiceDir /var/lib/tor/biblio-service/
-  HiddenServicePort 25333 127.0.0.1:25333
+  HiddenServicePort 25565 127.0.0.1:25565
 
 The directory can be different of course, but (both) port numbers should be equal to
-your bibliod's P2P listen port (25333 by default).
+your bibliod's P2P listen port (25565 by default).
 
 -externalip=X   You can tell biblio about its publicly reachable address using
                 this option, and this can be a .onion address. Given the above
@@ -83,7 +83,7 @@ specify:
 
   ./bibliod ... -discover
 
-and open port 25333 on your firewall (or use -upnp).
+and open port 25565 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:

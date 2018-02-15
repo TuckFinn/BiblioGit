@@ -2236,8 +2236,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 25333 or testnet: 125333)</source>
-        <translation>Ausculta pro conexionibus in &lt;porta&gt; (praedefinitum: 25333 vel testnet: 125333)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 25565 or testnet: 125565)</source>
+        <translation>Ausculta pro conexionibus in &lt;porta&gt; (praedefinitum: 25565 vel testnet: 125565)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2271,8 +2271,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 25332 or testnet: 125332)</source>
-        <translation>Ausculta pro conexionibus JSON-RPC in &lt;porta&gt; (praedefinitum: 25332 vel testnet: 125332)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 25564 or testnet: 125564)</source>
+        <translation>Ausculta pro conexionibus JSON-RPC in &lt;porta&gt; (praedefinitum: 25564 vel testnet: 125564)</translation>
     </message>
     <message>
         <location line="+37"/>
