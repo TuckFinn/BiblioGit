@@ -53,7 +53,7 @@ namespace Checkpoints
         &mapCheckpointsTestnet,
         1518742184,
         0,
-        1.0
+        5.0
     };
 
     const CCheckpointData &Checkpoints() {
